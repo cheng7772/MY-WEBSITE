@@ -1,0 +1,81 @@
+/* Global Styles */
+body{
+    font-family: 'Segoe UI';
+    padding-top: 56px;
+}
+
+/* Hero Section */
+.page{
+    background: linear-gradient(135deg, #1c2d7b 0%, #4ba259 100%);
+    padding: 120px 0;
+    margin-bottom: 50px;
+}
+
+/* Card Styles */
+.card{
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+/* Tool Section Styles */
+.tool-section{
+    padding: 40px 0;
+    background: linear-gradient(135deg, #1c2d7b 0%, #4ba259 100%);
+}
+
+.profile-image{
+    max-width: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Calculator Styles */
+.calculator-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Form Controls */
+.form-control:focus{
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102,126,234,0.25);
+}
+
+/* Buttons */
+.btn-primary{
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+.btn-primary:hover{
+    background-color: #764ba2;
+    border-color: #764ba2;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+}
+
+.get_link:hover{
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px){
+    .hero-section {
+        padding: 80px 0;
+    }
+    
+    .profile-image {
+        max-width: 200px;
+    }
+}
